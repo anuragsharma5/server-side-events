@@ -4,25 +4,34 @@ import java.util.Date;
 
 public class TeaEvent {
 
-	private long id;
+	private String message;
+	private String status;
 	private Date when;
 	
-	public TeaEvent(long id, Date when) {
+	
+	public TeaEvent(String message, String status, Date when) {
 		super();
-		this.id = id;
+		this.message = message;
+		this.status = status;
 		this.when = when;
 	}
 	
-	public long getId() {
-		return id;
+	public String getMessage() {
+		return message;
 	}
-	public void setId(long id) {
-		this.id = id;
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
 	}
 	public Date getWhen() {
 		return when;
 	}
 	public void setWhen(Date when) {
 		this.when = when;
-	}
+	}	
 }
