@@ -1,0 +1,2001 @@
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3250 */
+.x-tab-icon-top > .x-tab-icon-el-navigation,
+.x-tab-icon-bottom > .x-tab-icon-el-navigation {
+    min-width: 24px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3261 */
+.x-tab-bar-plain .x-tab-icon-el-navigation {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3286 */
+.x-tab-text.x-tab-icon-left > .x-tab-icon-el-navigation {
+    margin-right: 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3290 */
+.x-tab-text.x-tab-icon-left > .x-tab-icon-el-navigation.x-rtl {
+    margin-right: 0;
+    margin-left: 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3297 */
+.x-tab-text.x-tab-icon-right > .x-tab-icon-el-navigation {
+    margin-left: 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3301 */
+.x-tab-text.x-tab-icon-right > .x-tab-icon-el-navigation.x-rtl {
+    margin-left: 0;
+    margin-right: 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3308 */
+.x-tab-text.x-tab-icon-top > .x-tab-icon-el-navigation {
+    margin-bottom: 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3312 */
+.x-tab-text.x-tab-icon-bottom > .x-tab-icon-el-navigation {
+    margin-top: 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3318 */
+.x-keyboard-mode .x-tab-focus.x-tab-navigation {
+    border-color: transparent;
+    background-color: transparent;
+    outline: 1px solid #2e6eaf;
+    outline-offset: -3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:63 */
+.x-ie .x-keyboard-mode .x-tab-focus.x-tab-navigation,
+.x-ie10p .x-keyboard-mode .x-tab-focus.x-tab-navigation,
+.x-edge .x-keyboard-mode .x-tab-focus.x-tab-navigation {
+    outline: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */
+.x-ie .x-keyboard-mode .x-tab-focus.x-tab-navigation:after,
+.x-ie10p .x-keyboard-mode .x-tab-focus.x-tab-navigation:after,
+.x-edge .x-keyboard-mode .x-tab-focus.x-tab-navigation:after {
+    position: absolute;
+    content: ' ';
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    border: 1px solid #2e6eaf;
+    pointer-events: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3398 */
+.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-navigation .x-tab-inner-navigation {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3404 */
+.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-navigation .x-tab-icon-el {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3454 */
+.x-tab-over.x-tab-navigation {
+    border-color: #000;
+    background-image: none;
+    background-color: rgba(80, 80, 80, 0.08);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
+.x-ie8 .x-tab-over.x-tab-navigation {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14505050, endColorstr=#14505050)";
+    zoom: 1;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3483 */
+.x-ie8 .x-tab-over.x-tab-navigation.x-tab-rotate-left {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3489 */
+.x-ie8 .x-tab-over.x-tab-navigation.x-tab-rotate-right {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3510 */
+.x-tab-over.x-tab-navigation .x-tab-inner-navigation {
+    color: #c4c4c4;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3515 */
+.x-tab-bar-plain .x-tab-over.x-tab-navigation .x-tab-inner-navigation {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3530 */
+.x-tab-over.x-tab-navigation .x-tab-icon-el {
+    color: #c4c4c4;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3539 */
+.x-ie8m .x-tab-over.x-tab-navigation .x-tab-icon-el {
+    color: #c4c4c4;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3546 */
+.x-tab-bar-plain .x-tab-over.x-tab-navigation .x-tab-icon-el {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3567 */
+.x-keyboard-mode .x-tab-focus.x-tab-over.x-tab-navigation {
+    border-color: #000;
+    background-image: none;
+    background-color: rgba(80, 80, 80, 0.08);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
+.x-ie8 .x-keyboard-mode .x-tab-focus.x-tab-over.x-tab-navigation {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14505050, endColorstr=#14505050)";
+    zoom: 1;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3612 */
+.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-navigation .x-tab-inner-navigation {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3618 */
+.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-navigation .x-tab-icon-el {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3642 */
+.x-keyboard-mode.x-ie8 .x-tab-focus.x-tab-over.x-tab-navigation.x-tab-rotate-left {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3646 */
+.x-keyboard-mode.x-ie8 .x-tab-focus.x-tab-over.x-tab-navigation.x-tab-rotate-right {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3685 */
+.x-tab.x-tab-active.x-tab-navigation {
+    border-color: #fff;
+    background-color: #303030;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3741 */
+.x-tab.x-tab-active.x-tab-navigation .x-tab-inner-navigation {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3746 */
+.x-tab-bar-plain .x-tab.x-tab-active.x-tab-navigation .x-tab-inner-navigation {
+    color: #3e4752;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3761 */
+.x-tab.x-tab-active.x-tab-navigation .x-tab-icon-el {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3769 */
+.x-ie8 .x-tab.x-tab-active.x-tab-navigation .x-tab-icon-el {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3775 */
+.x-tab-bar-plain .x-tab.x-tab-active.x-tab-navigation .x-tab-icon-el {
+    color: #3e4752;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3797 */
+.x-keyboard-mode .x-tab-focus.x-tab-active.x-tab-navigation {
+    border-color: #fff;
+    background-color: #303030;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3842 */
+.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-navigation .x-tab-inner-navigation {
+    color: #3e4752;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3848 */
+.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-navigation .x-tab-icon-el {
+    color: #3e4752;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3916 */
+.x-tab.x-tab-disabled.x-tab-navigation {
+    border-color: transparent;
+    background-color: transparent;
+    cursor: default;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3976 */
+.x-tab.x-tab-disabled.x-tab-navigation .x-tab-inner-navigation {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3981 */
+.x-tab-bar-plain .x-tab.x-tab-disabled.x-tab-navigation .x-tab-inner-navigation {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4000 */
+.x-tab.x-tab-disabled.x-tab-navigation .x-tab-icon-el-navigation {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4005 */
+.x-tab.x-tab-disabled.x-tab-navigation .x-tab-icon-el {
+    color: #acacac;
+    opacity: 0.3;
+    filter: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4026 */
+.x-tab-bar-plain .x-tab.x-tab-disabled.x-tab-navigation .x-tab-icon-el {
+    color: #606060;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4046 */
+.x-nbr .x-tab-navigation {
+    background-image: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-over .x-tab-navigation-top-tl,
+.x-tab-over .x-tab-navigation-top-bl,
+.x-tab-over .x-tab-navigation-top-tr,
+.x-tab-over .x-tab-navigation-top-br,
+.x-tab-over .x-tab-navigation-top-tc,
+.x-tab-over .x-tab-navigation-top-bc {
+    background-image: url(images/tab/tab-navigation-top-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-over .x-tab-navigation-top-ml,
+.x-tab-over .x-tab-navigation-top-mr {
+    background-image: url(images/tab/tab-navigation-top-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-over .x-tab-navigation-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-top-over-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus .x-tab-navigation-top-tl,
+.x-tab-focus .x-tab-navigation-top-bl,
+.x-tab-focus .x-tab-navigation-top-tr,
+.x-tab-focus .x-tab-navigation-top-br,
+.x-tab-focus .x-tab-navigation-top-tc,
+.x-tab-focus .x-tab-navigation-top-bc {
+    background-image: url(images/tab/tab-navigation-top-focus-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus .x-tab-navigation-top-ml,
+.x-tab-focus .x-tab-navigation-top-mr {
+    background-image: url(images/tab/tab-navigation-top-focus-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus .x-tab-navigation-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-top-focus-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus.x-tab-over .x-tab-navigation-top-tl,
+.x-tab-focus.x-tab-over .x-tab-navigation-top-bl,
+.x-tab-focus.x-tab-over .x-tab-navigation-top-tr,
+.x-tab-focus.x-tab-over .x-tab-navigation-top-br,
+.x-tab-focus.x-tab-over .x-tab-navigation-top-tc,
+.x-tab-focus.x-tab-over .x-tab-navigation-top-bc {
+    background-image: url(images/tab/tab-navigation-top-focus-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus.x-tab-over .x-tab-navigation-top-ml,
+.x-tab-focus.x-tab-over .x-tab-navigation-top-mr {
+    background-image: url(images/tab/tab-navigation-top-focus-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus.x-tab-over .x-tab-navigation-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-top-focus-over-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab.x-tab-active .x-tab-navigation-top-tl,
+.x-tab.x-tab-active .x-tab-navigation-top-bl,
+.x-tab.x-tab-active .x-tab-navigation-top-tr,
+.x-tab.x-tab-active .x-tab-navigation-top-br,
+.x-tab.x-tab-active .x-tab-navigation-top-tc,
+.x-tab.x-tab-active .x-tab-navigation-top-bc {
+    background-image: url(images/tab/tab-navigation-top-active-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab.x-tab-active .x-tab-navigation-top-ml,
+.x-tab.x-tab-active .x-tab-navigation-top-mr {
+    background-image: url(images/tab/tab-navigation-top-active-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab.x-tab-active .x-tab-navigation-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-top-active-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus.x-tab-active .x-tab-navigation-top-tl,
+.x-tab-focus.x-tab-active .x-tab-navigation-top-bl,
+.x-tab-focus.x-tab-active .x-tab-navigation-top-tr,
+.x-tab-focus.x-tab-active .x-tab-navigation-top-br,
+.x-tab-focus.x-tab-active .x-tab-navigation-top-tc,
+.x-tab-focus.x-tab-active .x-tab-navigation-top-bc {
+    background-image: url(images/tab/tab-navigation-top-focus-active-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus.x-tab-active .x-tab-navigation-top-ml,
+.x-tab-focus.x-tab-active .x-tab-navigation-top-mr {
+    background-image: url(images/tab/tab-navigation-top-focus-active-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus.x-tab-active .x-tab-navigation-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-top-focus-active-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab.x-tab-disabled .x-tab-navigation-top-tl,
+.x-tab.x-tab-disabled .x-tab-navigation-top-bl,
+.x-tab.x-tab-disabled .x-tab-navigation-top-tr,
+.x-tab.x-tab-disabled .x-tab-navigation-top-br,
+.x-tab.x-tab-disabled .x-tab-navigation-top-tc,
+.x-tab.x-tab-disabled .x-tab-navigation-top-bc {
+    background-image: url(images/tab/tab-navigation-top-disabled-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab.x-tab-disabled .x-tab-navigation-top-ml,
+.x-tab.x-tab-disabled .x-tab-navigation-top-mr {
+    background-image: url(images/tab/tab-navigation-top-disabled-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab.x-tab-disabled .x-tab-navigation-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-top-disabled-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-over .x-tab-navigation-right-tl,
+.x-tab-over .x-tab-navigation-right-bl,
+.x-tab-over .x-tab-navigation-right-tr,
+.x-tab-over .x-tab-navigation-right-br,
+.x-tab-over .x-tab-navigation-right-tc,
+.x-tab-over .x-tab-navigation-right-bc {
+    background-image: url(images/tab/tab-navigation-right-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-over .x-tab-navigation-right-ml,
+.x-tab-over .x-tab-navigation-right-mr {
+    background-image: url(images/tab/tab-navigation-right-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-over .x-tab-navigation-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-right-over-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus .x-tab-navigation-right-tl,
+.x-tab-focus .x-tab-navigation-right-bl,
+.x-tab-focus .x-tab-navigation-right-tr,
+.x-tab-focus .x-tab-navigation-right-br,
+.x-tab-focus .x-tab-navigation-right-tc,
+.x-tab-focus .x-tab-navigation-right-bc {
+    background-image: url(images/tab/tab-navigation-right-focus-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus .x-tab-navigation-right-ml,
+.x-tab-focus .x-tab-navigation-right-mr {
+    background-image: url(images/tab/tab-navigation-right-focus-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus .x-tab-navigation-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-right-focus-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus.x-tab-over .x-tab-navigation-right-tl,
+.x-tab-focus.x-tab-over .x-tab-navigation-right-bl,
+.x-tab-focus.x-tab-over .x-tab-navigation-right-tr,
+.x-tab-focus.x-tab-over .x-tab-navigation-right-br,
+.x-tab-focus.x-tab-over .x-tab-navigation-right-tc,
+.x-tab-focus.x-tab-over .x-tab-navigation-right-bc {
+    background-image: url(images/tab/tab-navigation-right-focus-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus.x-tab-over .x-tab-navigation-right-ml,
+.x-tab-focus.x-tab-over .x-tab-navigation-right-mr {
+    background-image: url(images/tab/tab-navigation-right-focus-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus.x-tab-over .x-tab-navigation-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-right-focus-over-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab.x-tab-active .x-tab-navigation-right-tl,
+.x-tab.x-tab-active .x-tab-navigation-right-bl,
+.x-tab.x-tab-active .x-tab-navigation-right-tr,
+.x-tab.x-tab-active .x-tab-navigation-right-br,
+.x-tab.x-tab-active .x-tab-navigation-right-tc,
+.x-tab.x-tab-active .x-tab-navigation-right-bc {
+    background-image: url(images/tab/tab-navigation-right-active-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab.x-tab-active .x-tab-navigation-right-ml,
+.x-tab.x-tab-active .x-tab-navigation-right-mr {
+    background-image: url(images/tab/tab-navigation-right-active-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab.x-tab-active .x-tab-navigation-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-right-active-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus.x-tab-active .x-tab-navigation-right-tl,
+.x-tab-focus.x-tab-active .x-tab-navigation-right-bl,
+.x-tab-focus.x-tab-active .x-tab-navigation-right-tr,
+.x-tab-focus.x-tab-active .x-tab-navigation-right-br,
+.x-tab-focus.x-tab-active .x-tab-navigation-right-tc,
+.x-tab-focus.x-tab-active .x-tab-navigation-right-bc {
+    background-image: url(images/tab/tab-navigation-right-focus-active-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus.x-tab-active .x-tab-navigation-right-ml,
+.x-tab-focus.x-tab-active .x-tab-navigation-right-mr {
+    background-image: url(images/tab/tab-navigation-right-focus-active-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus.x-tab-active .x-tab-navigation-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-right-focus-active-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab.x-tab-disabled .x-tab-navigation-right-tl,
+.x-tab.x-tab-disabled .x-tab-navigation-right-bl,
+.x-tab.x-tab-disabled .x-tab-navigation-right-tr,
+.x-tab.x-tab-disabled .x-tab-navigation-right-br,
+.x-tab.x-tab-disabled .x-tab-navigation-right-tc,
+.x-tab.x-tab-disabled .x-tab-navigation-right-bc {
+    background-image: url(images/tab/tab-navigation-right-disabled-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab.x-tab-disabled .x-tab-navigation-right-ml,
+.x-tab.x-tab-disabled .x-tab-navigation-right-mr {
+    background-image: url(images/tab/tab-navigation-right-disabled-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab.x-tab-disabled .x-tab-navigation-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-right-disabled-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-over .x-tab-navigation-bottom-tl,
+.x-tab-over .x-tab-navigation-bottom-bl,
+.x-tab-over .x-tab-navigation-bottom-tr,
+.x-tab-over .x-tab-navigation-bottom-br,
+.x-tab-over .x-tab-navigation-bottom-tc,
+.x-tab-over .x-tab-navigation-bottom-bc {
+    background-image: url(images/tab/tab-navigation-bottom-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-over .x-tab-navigation-bottom-ml,
+.x-tab-over .x-tab-navigation-bottom-mr {
+    background-image: url(images/tab/tab-navigation-bottom-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-over .x-tab-navigation-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-bottom-over-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus .x-tab-navigation-bottom-tl,
+.x-tab-focus .x-tab-navigation-bottom-bl,
+.x-tab-focus .x-tab-navigation-bottom-tr,
+.x-tab-focus .x-tab-navigation-bottom-br,
+.x-tab-focus .x-tab-navigation-bottom-tc,
+.x-tab-focus .x-tab-navigation-bottom-bc {
+    background-image: url(images/tab/tab-navigation-bottom-focus-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus .x-tab-navigation-bottom-ml,
+.x-tab-focus .x-tab-navigation-bottom-mr {
+    background-image: url(images/tab/tab-navigation-bottom-focus-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus .x-tab-navigation-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-bottom-focus-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-tl,
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-bl,
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-tr,
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-br,
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-tc,
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-bc {
+    background-image: url(images/tab/tab-navigation-bottom-focus-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-ml,
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-mr {
+    background-image: url(images/tab/tab-navigation-bottom-focus-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus.x-tab-over .x-tab-navigation-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-bottom-focus-over-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab.x-tab-active .x-tab-navigation-bottom-tl,
+.x-tab.x-tab-active .x-tab-navigation-bottom-bl,
+.x-tab.x-tab-active .x-tab-navigation-bottom-tr,
+.x-tab.x-tab-active .x-tab-navigation-bottom-br,
+.x-tab.x-tab-active .x-tab-navigation-bottom-tc,
+.x-tab.x-tab-active .x-tab-navigation-bottom-bc {
+    background-image: url(images/tab/tab-navigation-bottom-active-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab.x-tab-active .x-tab-navigation-bottom-ml,
+.x-tab.x-tab-active .x-tab-navigation-bottom-mr {
+    background-image: url(images/tab/tab-navigation-bottom-active-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab.x-tab-active .x-tab-navigation-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-bottom-active-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-tl,
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-bl,
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-tr,
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-br,
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-tc,
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-bc {
+    background-image: url(images/tab/tab-navigation-bottom-focus-active-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-ml,
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-mr {
+    background-image: url(images/tab/tab-navigation-bottom-focus-active-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus.x-tab-active .x-tab-navigation-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-bottom-focus-active-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-tl,
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-bl,
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-tr,
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-br,
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-tc,
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-bc {
+    background-image: url(images/tab/tab-navigation-bottom-disabled-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-ml,
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-mr {
+    background-image: url(images/tab/tab-navigation-bottom-disabled-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab.x-tab-disabled .x-tab-navigation-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-bottom-disabled-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-over .x-tab-navigation-left-tl,
+.x-tab-over .x-tab-navigation-left-bl,
+.x-tab-over .x-tab-navigation-left-tr,
+.x-tab-over .x-tab-navigation-left-br,
+.x-tab-over .x-tab-navigation-left-tc,
+.x-tab-over .x-tab-navigation-left-bc {
+    background-image: url(images/tab/tab-navigation-left-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-over .x-tab-navigation-left-ml,
+.x-tab-over .x-tab-navigation-left-mr {
+    background-image: url(images/tab/tab-navigation-left-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-over .x-tab-navigation-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-left-over-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus .x-tab-navigation-left-tl,
+.x-tab-focus .x-tab-navigation-left-bl,
+.x-tab-focus .x-tab-navigation-left-tr,
+.x-tab-focus .x-tab-navigation-left-br,
+.x-tab-focus .x-tab-navigation-left-tc,
+.x-tab-focus .x-tab-navigation-left-bc {
+    background-image: url(images/tab/tab-navigation-left-focus-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus .x-tab-navigation-left-ml,
+.x-tab-focus .x-tab-navigation-left-mr {
+    background-image: url(images/tab/tab-navigation-left-focus-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus .x-tab-navigation-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-left-focus-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus.x-tab-over .x-tab-navigation-left-tl,
+.x-tab-focus.x-tab-over .x-tab-navigation-left-bl,
+.x-tab-focus.x-tab-over .x-tab-navigation-left-tr,
+.x-tab-focus.x-tab-over .x-tab-navigation-left-br,
+.x-tab-focus.x-tab-over .x-tab-navigation-left-tc,
+.x-tab-focus.x-tab-over .x-tab-navigation-left-bc {
+    background-image: url(images/tab/tab-navigation-left-focus-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus.x-tab-over .x-tab-navigation-left-ml,
+.x-tab-focus.x-tab-over .x-tab-navigation-left-mr {
+    background-image: url(images/tab/tab-navigation-left-focus-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus.x-tab-over .x-tab-navigation-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-left-focus-over-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab.x-tab-active .x-tab-navigation-left-tl,
+.x-tab.x-tab-active .x-tab-navigation-left-bl,
+.x-tab.x-tab-active .x-tab-navigation-left-tr,
+.x-tab.x-tab-active .x-tab-navigation-left-br,
+.x-tab.x-tab-active .x-tab-navigation-left-tc,
+.x-tab.x-tab-active .x-tab-navigation-left-bc {
+    background-image: url(images/tab/tab-navigation-left-active-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab.x-tab-active .x-tab-navigation-left-ml,
+.x-tab.x-tab-active .x-tab-navigation-left-mr {
+    background-image: url(images/tab/tab-navigation-left-active-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab.x-tab-active .x-tab-navigation-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-left-active-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab-focus.x-tab-active .x-tab-navigation-left-tl,
+.x-tab-focus.x-tab-active .x-tab-navigation-left-bl,
+.x-tab-focus.x-tab-active .x-tab-navigation-left-tr,
+.x-tab-focus.x-tab-active .x-tab-navigation-left-br,
+.x-tab-focus.x-tab-active .x-tab-navigation-left-tc,
+.x-tab-focus.x-tab-active .x-tab-navigation-left-bc {
+    background-image: url(images/tab/tab-navigation-left-focus-active-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab-focus.x-tab-active .x-tab-navigation-left-ml,
+.x-tab-focus.x-tab-active .x-tab-navigation-left-mr {
+    background-image: url(images/tab/tab-navigation-left-focus-active-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab-focus.x-tab-active .x-tab-navigation-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-left-focus-active-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
+.x-tab.x-tab-disabled .x-tab-navigation-left-tl,
+.x-tab.x-tab-disabled .x-tab-navigation-left-bl,
+.x-tab.x-tab-disabled .x-tab-navigation-left-tr,
+.x-tab.x-tab-disabled .x-tab-navigation-left-br,
+.x-tab.x-tab-disabled .x-tab-navigation-left-tc,
+.x-tab.x-tab-disabled .x-tab-navigation-left-bc {
+    background-image: url(images/tab/tab-navigation-left-disabled-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
+.x-tab.x-tab-disabled .x-tab-navigation-left-ml,
+.x-tab.x-tab-disabled .x-tab-navigation-left-mr {
+    background-image: url(images/tab/tab-navigation-left-disabled-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
+.x-tab.x-tab-disabled .x-tab-navigation-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-navigation-left-disabled-fbg.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4089 */
+.x-tab-navigation-tl,
+.x-tab-navigation-bl,
+.x-tab-navigation-tr,
+.x-tab-navigation-br {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4099 */
+.x-tab-navigation .x-tab-close-btn {
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    font: 12px/1 FontAwesome;
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
+.x-tab-navigation .x-tab-close-btn:before {
+    content: "\f00d";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4109 */
+.x-tab-bar-plain .x-tab-navigation .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4121 */
+.x-tab-navigation .x-tab-close-btn-over {
+    background-position: -16px 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4131 */
+.x-tab-navigation .x-tab-close-btn-pressed {
+    background-position: -32px 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4139 */
+.x-keyboard-mode .x-tab-navigation.x-tab-focus .x-tab-close-btn {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4145 */
+.x-keyboard-mode .x-tab-bar-plain .x-tab-navigation.x-tab-focus .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4156 */
+.x-tab-navigation.x-tab-over .x-tab-close-btn {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4160 */
+.x-tab-bar-plain .x-tab-navigation.x-tab-over .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4171 */
+.x-keyboard-mode .x-tab-navigation.x-tab-focus.x-tab-over .x-tab-close-btn {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4177 */
+.x-keyboard-mode .x-tab-bar-plain .x-tab-navigation.x-tab-focus.x-tab-over .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4188 */
+.x-tab-navigation.x-tab-active .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4219 */
+.x-keyboard-mode .x-tab-navigation.x-tab-focus.x-tab-active .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4235 */
+.x-tab-navigation.x-tab-disabled .x-tab-close-btn {
+    color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+    background-position: 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4240 */
+.x-tab-bar-plain .x-tab-navigation.x-tab-disabled .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4256 */
+.x-rtl.x-tab-navigation .x-tab-close-btn {
+    right: auto;
+    left: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4262 */
+.x-tab-closable.x-tab-navigation .x-tab-button {
+    padding-right: 16px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4267 */
+.x-rtl.x-tab-closable.x-tab-navigation .x-tab-button {
+    padding-right: 0px;
+    padding-left: 16px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:389 */
+.x-tab-bar-navigation {
+    background-color: #404040;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:428 */
+.x-tab-bar-navigation-top > .x-tab-bar-body-navigation {
+    padding: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:432 */
+.x-tab-bar-navigation-bottom > .x-tab-bar-body-navigation {
+    padding: 0 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:436 */
+.x-tab-bar-navigation-left > .x-tab-bar-body-navigation {
+    padding: 0 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:441 */
+.x-rtl.x-tab-bar-navigation-left > .x-tab-bar-body-navigation {
+    padding: 0 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:446 */
+.x-tab-bar-navigation-right > .x-tab-bar-body-navigation {
+    padding: 0 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:451 */
+.x-rtl.x-tab-bar-navigation-right > .x-tab-bar-body-navigation {
+    padding: 0 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:459 */
+.x-tab-bar-plain.x-tab-bar-navigation-top > .x-tab-bar-body-navigation {
+    padding: 8px 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:463 */
+.x-tab-bar-plain.x-tab-bar-navigation-bottom > .x-tab-bar-body-navigation {
+    padding: 0 0 8px 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:467 */
+.x-tab-bar-plain.x-tab-bar-navigation-left > .x-tab-bar-body-navigation {
+    padding: 0 0 0 8px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:472 */
+.x-rtl.x-tab-bar-plain.x-tab-bar-navigation-left > .x-tab-bar-body-navigation {
+    padding: 0 8px 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:477 */
+.x-tab-bar-plain.x-tab-bar-navigation-right > .x-tab-bar-body-navigation {
+    padding: 0 8px 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:482 */
+.x-rtl.x-tab-bar-plain.x-tab-bar-navigation-right > .x-tab-bar-body-navigation {
+    padding: 0 0 0 8px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:490 */
+.x-tab-bar-plain.x-tab-bar-navigation-horizontal {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:497 */
+.x-tab-bar-plain.x-tab-bar-navigation-vertical {
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:509 */
+.x-tab-bar-top > .x-tab-bar-body-navigation {
+    padding-bottom: 1;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:513 */
+.x-tab-bar-bottom > .x-tab-bar-body-navigation {
+    padding-top: 1;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:517 */
+.x-tab-bar-left > .x-tab-bar-body-navigation {
+    padding-right: 1;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:521 */
+.x-tab-bar-left > .x-tab-bar-body-navigation.x-rtl {
+    padding-right: 0;
+    padding-left: 1;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:528 */
+.x-tab-bar-right > .x-tab-bar-body-navigation {
+    padding-left: 1;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:532 */
+.x-tab-bar-right > .x-tab-bar-body-navigation.x-rtl {
+    padding-left: 0;
+    padding-right: 1;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:540 */
+.x-tab-bar-strip-navigation {
+    border-style: solid;
+    border-color: red;
+    background-color: red;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:547 */
+.x-tab-bar-top > .x-tab-bar-strip-navigation {
+    border-width: 2;
+    height: 5;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:551 */
+.x-tab-bar-top.x-tab-bar-plain > .x-tab-bar-strip-navigation {
+    border-width: 2 2 2 2;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:557 */
+.x-tab-bar-bottom > .x-tab-bar-strip-navigation {
+    border-width: 2 2 2 2;
+    height: 5;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:561 */
+.x-tab-bar-bottom.x-tab-bar-plain > .x-tab-bar-strip-navigation {
+    border-width: 2 2 2 2;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:567 */
+.x-tab-bar-left > .x-tab-bar-strip-navigation {
+    border-width: 2 2 2 2;
+    width: 5;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:571 */
+.x-tab-bar-left > .x-tab-bar-strip-navigation.x-rtl {
+    border-width: 2 2 2 2;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:576 */
+.x-tab-bar-left.x-tab-bar-plain > .x-tab-bar-strip-navigation {
+    border-width: 2 2 2 2;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:579 */
+.x-tab-bar-left.x-tab-bar-plain > .x-tab-bar-strip-navigation.x-rtl {
+    border-width: 2 2 2 2;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:587 */
+.x-tab-bar-right > .x-tab-bar-strip-navigation {
+    border-width: 2 2 2 2;
+    width: 5;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:591 */
+.x-tab-bar-right > .x-tab-bar-strip-navigation.x-rtl {
+    border-width: 2 2 2 2;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:596 */
+.x-tab-bar-right.x-tab-bar-plain > .x-tab-bar-strip-navigation {
+    border-width: 2 2 2 2;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:599 */
+.x-tab-bar-right.x-tab-bar-plain > .x-tab-bar-strip-navigation.x-rtl {
+    border-width: 2 2 2 2;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:611 */
+.x-tab-bar-horizontal > .x-tab-bar-body-navigation {
+    min-height: 59px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:614 */
+.x-ie8m .x-tab-bar-horizontal > .x-tab-bar-body-navigation {
+    min-height: 56px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:621 */
+.x-tab-bar-vertical > .x-tab-bar-body-navigation {
+    min-width: 59px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:624 */
+.x-ie8m .x-tab-bar-vertical > .x-tab-bar-body-navigation {
+    min-width: 56px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:182 */
+.x-tab-bar-navigation-scroller .x-box-scroller-body-horizontal {
+    margin-left: 24px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:187 */
+.x-tab-bar-navigation-scroller.x-rtl .x-box-scroller-body-horizontal {
+    margin-left: 0;
+    margin-right: 24px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:195 */
+.x-tab-bar-navigation-vertical-scroller .x-box-scroller-body-vertical {
+    margin-top: 24px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:200 */
+.x-box-scroller-tab-bar-navigation {
+    cursor: pointer;
+    color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:210 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    opacity: 0.6;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:216 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-pressed {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    opacity: 0.7;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:222 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-disabled {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    opacity: 0.25;
+    cursor: default;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:232 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-left,
+.x-box-scroller-tab-bar-navigation.x-box-scroller-right {
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    margin-top: -12px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:259 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-left {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-left:before {
+    content: "\f053";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:284 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-right {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-right:before {
+    content: "\f054";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:311 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-top,
+.x-box-scroller-tab-bar-navigation.x-box-scroller-bottom {
+    height: 24px;
+    width: 24px;
+    left: 50%;
+    margin-left: -12px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:338 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-top {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-top:before {
+    content: "\f077";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:363 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-bottom {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
+.x-box-scroller-tab-bar-navigation.x-box-scroller-bottom:before {
+    content: "\f078";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:704 */
+.x-tab-bar-more-icon {
+    font: 16px/1 FontAwesome;
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
+.x-tab-bar-more-icon:before {
+    content: "\f0c9";
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:721 */
+.x-tab-bar-plain.x-tab-bar-navigation-scroller .x-box-scroller-body-horizontal {
+    margin-left: 24px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:727 */
+.x-tab-bar-plain.x-tab-bar-navigation-vertical-scroller .x-box-scroller-body-vertical {
+    margin-top: 16px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:732 */
+.x-tab-bar-plain .x-box-scroller-tab-bar-navigation {
+    color: #919191;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:780 */
+.x-tab-bar-navigation-top .x-box-scroller-tab-bar-navigation {
+    margin-top: -14px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:784 */
+.x-tab-bar-navigation-right .x-box-scroller-tab-bar-navigation {
+    margin-left: -10px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:788 */
+.x-tab-bar-navigation-bottom .x-box-scroller-tab-bar-navigation {
+    margin-top: -10px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:792 */
+.x-tab-bar-navigation-left .x-box-scroller-tab-bar-navigation {
+    margin-left: -14px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:801 */
+.x-box-scroller-tab-bar-navigation {
+    background-color: #404040;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/tab/Bar.scss:807 */
+.x-box-scroller-tab-bar-navigation .x-ie8 .x-box-scroller-plain {
+    background-color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:799 */
+.x-panel-navigation {
+    border-color: #2e6eaf;
+    padding: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:802 */
+.x-panel-navigation.x-masked {
+    border-color: #97b7d7;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:810 */
+.x-panel-header-navigation {
+    font-size: 20px;
+    border: 1px solid #2e6eaf;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:836 */
+.x-panel-header-navigation .x-tool-tool-el {
+    background-color: #2e6eaf;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:842 */
+.x-panel-header-navigation-horizontal {
+    padding: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:846 */
+.x-panel-header-navigation-horizontal .x-panel-header-navigation-tab-bar {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:866 */
+.x-panel-header-navigation-vertical {
+    padding: 0 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:870 */
+.x-panel-header-navigation-vertical .x-panel-header-navigation-tab-bar {
+    margin-right: 0;
+    margin-left: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:891 */
+.x-rtl.x-panel-header-navigation-vertical {
+    padding: 0 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:895 */
+.x-rtl.x-panel-header-navigation-vertical .x-panel-header-navigation-tab-bar {
+    margin-left: 0;
+    margin-right: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:916 */
+.x-panel-header-title-navigation {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    margin: 36px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:929 */
+.x-keyboard-mode .x-panel-header-title-navigation.x-title-focus {
+    outline: 1px solid #fff;
+    outline-offset: 2px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:63 */
+.x-ie .x-keyboard-mode .x-panel-header-title-navigation.x-title-focus,
+.x-ie10p .x-keyboard-mode .x-panel-header-title-navigation.x-title-focus,
+.x-edge .x-keyboard-mode .x-panel-header-title-navigation.x-title-focus {
+    outline: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */
+.x-ie .x-keyboard-mode .x-panel-header-title-navigation.x-title-focus:after,
+.x-ie10p .x-keyboard-mode .x-panel-header-title-navigation.x-title-focus:after,
+.x-edge .x-keyboard-mode .x-panel-header-title-navigation.x-title-focus:after {
+    position: absolute;
+    content: ' ';
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+    border: 1px solid #fff;
+    pointer-events: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:950 */
+.x-panel-header-title-navigation > .x-title-text-navigation {
+    text-transform: none;
+    padding: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:955 */
+.x-panel-header-title-navigation > .x-title-text-navigation:after {
+    font-family: ext-watermark;
+    font-size: 18px;
+    content: 'd';
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #82a8cf;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:968 */
+.x-panel-header-title-navigation > .x-title-text-navigation.x-rtl:after {
+    right: auto;
+    left: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:997 */
+.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-top {
+    height: 39px;
+    padding-bottom: 15px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1002 */
+.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-right {
+    width: 39px;
+    padding-left: 15px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1007 */
+.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-right.x-rtl {
+    padding-left: 0;
+    padding-right: 15px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1014 */
+.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-bottom {
+    height: 39px;
+    padding-top: 15px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1019 */
+.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-left {
+    width: 39px;
+    padding-right: 15px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1024 */
+.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-left.x-rtl {
+    padding-right: 0;
+    padding-left: 15px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1031 */
+.x-panel-header-title-navigation > .x-title-icon-wrap-navigation > .x-title-icon-navigation {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    color: #fff;
+    background-position: center center;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1051 */
+.x-ie8 .x-panel-header-title-navigation > .x-title-icon-wrap-navigation > .x-title-icon-navigation.x-title-glyph {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1062 */
+.x-panel-body-navigation {
+    background: #ececec;
+    border-color: #d0d0d0;
+    color: #3e4752;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-width: 1px;
+    border-style: solid;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1226 */
+.x-panel-header-navigation {
+    background-image: none;
+    background-color: #2e6eaf;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1230 */
+.x-panel-header-navigation-vertical {
+    background-image: none;
+    background-color: #2e6eaf;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1235 */
+.x-rtl.x-panel-header-navigation-vertical {
+    background-image: none;
+    background-color: #2e6eaf;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1288 */
+.x-panel .x-panel-header-navigation-collapsed-border-top {
+    border-bottom-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1292 */
+.x-panel .x-panel-header-navigation-collapsed-border-right {
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1296 */
+.x-panel .x-panel-header-navigation-collapsed-border-bottom {
+    border-top-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1300 */
+.x-panel .x-panel-header-navigation-collapsed-border-left {
+    border-right-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1336 */
+.x-panel-header-navigation-horizontal .x-tool-after-title {
+    margin: 0 0 0 6px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1341 */
+.x-panel-header-navigation-horizontal .x-rtl.x-tool-after-title {
+    margin: 0 6px 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1346 */
+.x-panel-header-navigation-horizontal .x-tool-before-title {
+    margin: 0 6px 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1351 */
+.x-panel-header-navigation-horizontal .x-rtl.x-tool-before-title {
+    margin: 0 0 0 6px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1358 */
+.x-panel-header-navigation-vertical .x-tool-after-title {
+    margin: 6px 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1363 */
+.x-panel-header-navigation-vertical .x-rtl.x-tool-after-title {
+    margin: 6px 0 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1368 */
+.x-panel-header-navigation-vertical .x-tool-before-title {
+    margin: 0 0 6px 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1373 */
+.x-panel-header-navigation-vertical .x-rtl.x-tool-before-title {
+    margin: 0 0 6px 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1381 */
+.x-keyboard-mode .x-panel-header-navigation .x-tool-focus {
+    outline: 1px solid #fff;
+    outline-offset: 2px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:63 */
+.x-ie .x-keyboard-mode .x-panel-header-navigation .x-tool-focus,
+.x-ie10p .x-keyboard-mode .x-panel-header-navigation .x-tool-focus,
+.x-edge .x-keyboard-mode .x-panel-header-navigation .x-tool-focus {
+    outline: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */
+.x-ie .x-keyboard-mode .x-panel-header-navigation .x-tool-focus:after,
+.x-ie10p .x-keyboard-mode .x-panel-header-navigation .x-tool-focus:after,
+.x-edge .x-keyboard-mode .x-panel-header-navigation .x-tool-focus:after {
+    position: absolute;
+    content: ' ';
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+    border: 1px solid #fff;
+    pointer-events: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1412 */
+.x-rtl.x-panel-header-navigation-collapsed-border-right {
+    border-right-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1415 */
+.x-rtl.x-panel-header-navigation-collapsed-border-left {
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1429 */
+.x-panel-navigation-resizable .x-panel-handle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
+.x-panel-navigation-outer-border-l {
+    border-left-color: #2e6eaf !important;
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
+.x-panel-navigation-outer-border-b {
+    border-bottom-color: #2e6eaf !important;
+    border-bottom-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
+.x-panel-navigation-outer-border-bl {
+    border-bottom-color: #2e6eaf !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #2e6eaf !important;
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
+.x-panel-navigation-outer-border-r {
+    border-right-color: #2e6eaf !important;
+    border-right-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
+.x-panel-navigation-outer-border-rl {
+    border-right-color: #2e6eaf !important;
+    border-right-width: 1px !important;
+    border-left-color: #2e6eaf !important;
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
+.x-panel-navigation-outer-border-rb {
+    border-right-color: #2e6eaf !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #2e6eaf !important;
+    border-bottom-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
+.x-panel-navigation-outer-border-rbl {
+    border-right-color: #2e6eaf !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #2e6eaf !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #2e6eaf !important;
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
+.x-panel-navigation-outer-border-t {
+    border-top-color: #2e6eaf !important;
+    border-top-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
+.x-panel-navigation-outer-border-tl {
+    border-top-color: #2e6eaf !important;
+    border-top-width: 1px !important;
+    border-left-color: #2e6eaf !important;
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
+.x-panel-navigation-outer-border-tb {
+    border-top-color: #2e6eaf !important;
+    border-top-width: 1px !important;
+    border-bottom-color: #2e6eaf !important;
+    border-bottom-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
+.x-panel-navigation-outer-border-tbl {
+    border-top-color: #2e6eaf !important;
+    border-top-width: 1px !important;
+    border-bottom-color: #2e6eaf !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #2e6eaf !important;
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
+.x-panel-navigation-outer-border-tr {
+    border-top-color: #2e6eaf !important;
+    border-top-width: 1px !important;
+    border-right-color: #2e6eaf !important;
+    border-right-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
+.x-panel-navigation-outer-border-trl {
+    border-top-color: #2e6eaf !important;
+    border-top-width: 1px !important;
+    border-right-color: #2e6eaf !important;
+    border-right-width: 1px !important;
+    border-left-color: #2e6eaf !important;
+    border-left-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
+.x-panel-navigation-outer-border-trb {
+    border-top-color: #2e6eaf !important;
+    border-top-width: 1px !important;
+    border-right-color: #2e6eaf !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #2e6eaf !important;
+    border-bottom-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
+.x-panel-navigation-outer-border-trbl {
+    border-color: #2e6eaf !important;
+    border-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-btn-logout-btn-small {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 7px 7px 7px 7px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-btn-logout-btn-small-mc {
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-btn-logout-btn-small {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-btn-logout-btn-small-frameInfo {
+    font-family: th-3-3-3-3-1-1-1-1-7-7-7-7;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-btn-logout-btn-small-tl {
+    background-position: 0 -6px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-btn-logout-btn-small-tr {
+    background-position: right -9px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-btn-logout-btn-small-bl {
+    background-position: 0 -12px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-btn-logout-btn-small-br {
+    background-position: right -15px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-btn-logout-btn-small-ml {
+    background-position: 0 top;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-btn-logout-btn-small-mr {
+    background-position: right top;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-btn-logout-btn-small-tc {
+    background-position: 0 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-btn-logout-btn-small-bc {
+    background-position: 0 -3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-btn-logout-btn-small-tr,
+.x-btn-logout-btn-small-br,
+.x-btn-logout-btn-small-mr {
+    padding-right: 3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-btn-logout-btn-small-tl,
+.x-btn-logout-btn-small-bl,
+.x-btn-logout-btn-small-ml {
+    padding-left: 3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-btn-logout-btn-small-tc {
+    height: 3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-btn-logout-btn-small-bc {
+    height: 3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-btn-logout-btn-small-mc {
+    padding: 5px 5px 5px 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
+.x-btn-logout-btn-small {
+    border-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
+.x-btn-button-logout-btn-small {
+    min-height: 16px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2475 */
+.x-ie9m .x-btn-button-logout-btn-small {
+    min-height: auto;
+    height: 16px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
+.x-btn-inner-logout-btn-small {
+    font: 800 12px/16px "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0 5px;
+    max-width: 100%;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2502 */
+.x-ie9 .x-btn-icon-right > .x-btn-inner-logout-btn-small,
+.x-ie9 .x-btn-icon-left > .x-btn-inner-logout-btn-small {
+    max-width: calc(100% - 16px);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2510 */
+.x-safari8m .x-btn-icon-right > .x-btn-inner-logout-btn-small,
+.x-safari8m .x-btn-icon-left > .x-btn-inner-logout-btn-small {
+    max-width: calc(100% - 15px);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2516 */
+.x-ie10p .x-btn-inner-logout-btn-small {
+    max-width: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2521 */
+.x-btn-icon-el-logout-btn-small {
+    font-size: 16px;
+    height: 16px;
+    color: #fff;
+    line-height: 16px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2527 */
+.x-btn-icon-left > .x-btn-icon-el-logout-btn-small,
+.x-btn-icon-right > .x-btn-icon-el-logout-btn-small {
+    width: 16px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2532 */
+.x-btn-icon-top > .x-btn-icon-el-logout-btn-small,
+.x-btn-icon-bottom > .x-btn-icon-el-logout-btn-small {
+    min-width: 16px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2554 */
+.x-ie8 .x-btn-icon-el-logout-btn-small.x-btn-glyph {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2561 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-logout-btn-small {
+    margin-right: 3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2565 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-logout-btn-small.x-rtl {
+    margin-right: 0;
+    margin-left: 3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2572 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-logout-btn-small {
+    margin-left: 3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2576 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-logout-btn-small.x-rtl {
+    margin-left: 0;
+    margin-right: 3px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2583 */
+.x-btn-text.x-btn-icon-top > .x-btn-icon-el-logout-btn-small {
+    margin-bottom: 8px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2587 */
+.x-btn-text.x-btn-icon-bottom > .x-btn-icon-el-logout-btn-small {
+    margin-top: 8px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2593 */
+.x-btn-arrow-right > .x-btn-icon.x-btn-no-text.x-btn-button-logout-btn-small {
+    padding-right: 8px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2596 */
+.x-btn-arrow-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-logout-btn-small {
+    margin-right: 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2603 */
+.x-btn-arrow-bottom > .x-btn-button-logout-btn-small,
+.x-btn-split-bottom > .x-btn-button-logout-btn-small {
+    padding-bottom: 7px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2609 */
+.x-btn-wrap-logout-btn-small.x-btn-arrow-right:after {
+    width: 18px;
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2636 */
+.x-btn-wrap-logout-btn-small.x-btn-arrow-bottom:after {
+    height: 12px;
+    content: "\f0d7";
+    font: 16px/12px FontAwesome;
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2663 */
+.x-btn-wrap-logout-btn-small.x-btn-split-right > .x-btn-button {
+    padding-right: 7px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2666 */
+.x-btn-wrap-logout-btn-small.x-btn-split-right > .x-btn-button.x-rtl {
+    padding-right: 0;
+    padding-left: 7px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2671 */
+.x-btn-wrap-logout-btn-small.x-btn-split-right > .x-btn-button:after {
+    border-right: 1px solid #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2676 */
+.x-btn-wrap-logout-btn-small.x-btn-split-right:after {
+    width: 20px;
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+    color: #fff;
+    padding-left: 7px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2692 */
+.x-btn-wrap-logout-btn-small.x-rtl.x-btn-split-right:after {
+    padding-left: 0;
+    padding-right: 7px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2702 */
+.x-btn-wrap-logout-btn-small.x-btn-split-bottom {
+    margin-bottom: -7px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2704 */
+.x-btn-wrap-logout-btn-small.x-btn-split-bottom > .x-btn-button:after {
+    border-bottom: 1px solid #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2715 */
+.x-btn-wrap-logout-btn-small.x-btn-split-bottom:after {
+    height: 20px;
+    content: "\f0d7";
+    font: 16px/20px FontAwesome;
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2748 */
+.x-btn-split-right > .x-btn-icon.x-btn-no-text.x-btn-button-logout-btn-small {
+    padding-right: 8px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2751 */
+.x-btn-split-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-logout-btn-small {
+    margin-right: 5px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
+.x-keyboard-mode .x-btn-focus.x-btn-logout-btn-small {
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: #d5e2ef 0 1px 0px 0 inset, #d5e2ef 0 -1px 0px 0 inset, #d5e2ef -1px 0 0px 0 inset, #d5e2ef 1px 0 0px 0 inset;
+    -moz-box-shadow: #d5e2ef 0 1px 0px 0 inset, #d5e2ef 0 -1px 0px 0 inset, #d5e2ef -1px 0 0px 0 inset, #d5e2ef 1px 0 0px 0 inset;
+    box-shadow: #d5e2ef 0 1px 0px 0 inset, #d5e2ef 0 -1px 0px 0 inset, #d5e2ef -1px 0 0px 0 inset, #d5e2ef 1px 0 0px 0 inset;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2776 */
+.x-keyboard-mode .x-btn-focus.x-btn-logout-btn-small .x-btn-inner {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
+.x-btn-logout-btn-small .x-btn-arrow-el {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 27px;
+    pointer-events: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2802 */
+.x-btn-logout-btn-small .x-btn-arrow-el.x-rtl {
+    right: inherit;
+    left: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
+.x-keyboard-mode .x-btn-logout-btn-small.x-arrow-focus .x-btn-arrow-el {
+    border: 1px solid #d5e2ef;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
+.x-btn-over.x-btn-logout-btn-small {
+    background-image: none;
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2828 */
+.x-btn-over.x-btn-logout-btn-small .x-btn-inner {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
+.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-logout-btn-small {
+    -webkit-box-shadow: #d4e0ec 0 1px 0px 0 inset, #d4e0ec 0 -1px 0px 0 inset, #d4e0ec -1px 0 0px 0 inset, #d4e0ec 1px 0 0px 0 inset;
+    -moz-box-shadow: #d4e0ec 0 1px 0px 0 inset, #d4e0ec 0 -1px 0px 0 inset, #d4e0ec -1px 0 0px 0 inset, #d4e0ec 1px 0 0px 0 inset;
+    box-shadow: #d4e0ec 0 1px 0px 0 inset, #d4e0ec 0 -1px 0px 0 inset, #d4e0ec -1px 0 0px 0 inset, #d4e0ec 1px 0 0px 0 inset;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
+.x-btn.x-btn-menu-active.x-btn-logout-btn-small,
+.x-btn.x-btn-pressed.x-btn-logout-btn-small {
+    background-image: none;
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2886 */
+.x-btn.x-btn-menu-active.x-btn-logout-btn-small .x-btn-inner,
+.x-btn.x-btn-pressed.x-btn-logout-btn-small .x-btn-inner {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-logout-btn-small,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-logout-btn-small {
+    -webkit-box-shadow: #d3dde6 0 1px 0px 0 inset, #d3dde6 0 -1px 0px 0 inset, #d3dde6 -1px 0 0px 0 inset, #d3dde6 1px 0 0px 0 inset;
+    -moz-box-shadow: #d3dde6 0 1px 0px 0 inset, #d3dde6 0 -1px 0px 0 inset, #d3dde6 -1px 0 0px 0 inset, #d3dde6 1px 0 0px 0 inset;
+    box-shadow: #d3dde6 0 1px 0px 0 inset, #d3dde6 0 -1px 0px 0 inset, #d3dde6 -1px 0 0px 0 inset, #d3dde6 1px 0 0px 0 inset;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
+.x-btn.x-btn-disabled.x-btn-logout-btn-small {
+    background-image: none;
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2944 */
+.x-btn.x-btn-disabled.x-btn-logout-btn-small .x-btn-inner {
+    color: #fff;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-tl,
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-bl,
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-tr,
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-br,
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-tc,
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-bc {
+    background-image: url(images/btn/btn-logout-btn-small-focus-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2974 */
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-ml,
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-mr {
+    background-image: url(images/btn/btn-logout-btn-small-focus-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
+.x-keyboard-mode .x-btn-focus .x-btn-logout-btn-small-mc {
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
+.x-btn-over .x-btn-logout-btn-small-tl,
+.x-btn-over .x-btn-logout-btn-small-bl,
+.x-btn-over .x-btn-logout-btn-small-tr,
+.x-btn-over .x-btn-logout-btn-small-br,
+.x-btn-over .x-btn-logout-btn-small-tc,
+.x-btn-over .x-btn-logout-btn-small-bc {
+    background-image: url(images/btn/btn-logout-btn-small-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:2999 */
+.x-btn-over .x-btn-logout-btn-small-ml,
+.x-btn-over .x-btn-logout-btn-small-mr {
+    background-image: url(images/btn/btn-logout-btn-small-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3003 */
+.x-btn-over .x-btn-logout-btn-small-mc {
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3016 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-bc {
+    background-image: url(images/btn/btn-logout-btn-small-focus-over-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3024 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-mr {
+    background-image: url(images/btn/btn-logout-btn-small-focus-over-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3028 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-logout-btn-small-mc {
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3043 */
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-tl,
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-bl,
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-tr,
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-br,
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-tc,
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-bc,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-tl,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-bl,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-tr,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-br,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-tc,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-bc {
+    background-image: url(images/btn/btn-logout-btn-small-pressed-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3051 */
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-ml,
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-mr,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-ml,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-mr {
+    background-image: url(images/btn/btn-logout-btn-small-pressed-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3055 */
+.x-btn.x-btn-menu-active .x-btn-logout-btn-small-mc,
+.x-btn.x-btn-pressed .x-btn-logout-btn-small-mc {
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3069 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-bc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-bc {
+    background-image: url(images/btn/btn-logout-btn-small-focus-pressed-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3077 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-mr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-mr {
+    background-image: url(images/btn/btn-logout-btn-small-focus-pressed-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3081 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-logout-btn-small-mc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-logout-btn-small-mc {
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3095 */
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-tl,
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-bl,
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-tr,
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-br,
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-tc,
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-bc {
+    background-image: url(images/btn/btn-logout-btn-small-disabled-corners.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3103 */
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-ml,
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-mr {
+    background-image: url(images/btn/btn-logout-btn-small-disabled-sides.gif);
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
+.x-btn.x-btn-disabled .x-btn-logout-btn-small-mc {
+    background-color: transparent;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
+.x-nbr .x-btn-logout-btn-small {
+    background-image: none;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3123 */
+.x-btn-disabled.x-btn-logout-btn-small {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3142 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-logout-btn-small.x-segmented-button-first {
+    border-right-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3144 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-logout-btn-small.x-segmented-button-first .x-btn-logout-btn-small-mc {
+    padding-right: 7px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3148 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-logout-btn-small.x-segmented-button-middle {
+    border-right-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3150 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-logout-btn-small.x-segmented-button-middle .x-btn-logout-btn-small-mc {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3156 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-logout-btn-small.x-segmented-button-last .x-btn-logout-btn-small-mc {
+    padding-left: 7px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3163 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-logout-btn-small.x-segmented-button-first {
+    border-bottom-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3165 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-logout-btn-small.x-segmented-button-first .x-btn-logout-btn-small-mc {
+    padding-bottom: 7px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3169 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-logout-btn-small.x-segmented-button-middle {
+    border-bottom-width: 1px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3171 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-logout-btn-small.x-segmented-button-middle .x-btn-logout-btn-small-mc {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3177 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-logout-btn-small.x-segmented-button-last .x-btn-logout-btn-small-mc {
+    padding-top: 7px !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3183 */
+.x-nbr .x-segmented-button-item.x-btn-logout-btn-small:after {
+    content: ' ';
+    border-style: solid;
+    border-width: 0;
+    position: absolute;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3201 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-logout-btn-small:after {
+    top: 1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3207 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-logout-btn-small.x-segmented-button-first:after {
+    left: 1px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3210 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-logout-btn-small.x-segmented-button-last:after {
+    right: 1px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3216 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-logout-btn-small:after {
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    left: 1px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3222 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-logout-btn-small.x-segmented-button-first:after {
+    top: 1px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3225 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-logout-btn-small.x-segmented-button-last:after {
+    bottom: 1px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-logout-btn-small:after {
+    border-width: 1px;
+    border-color: #d5e2ef;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-logout-btn-small:after {
+    border-width: 1px;
+    border-color: #d4e0ec;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-logout-btn-small:after,
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-logout-btn-small:after {
+    border-width: 1px;
+    border-color: #d3dde6;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
+.x-button-logout-btn-small-cell > .x-grid-cell-inner {
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
+.x-button-logout-btn-small-cell > .x-grid-cell-inner >.x-btn-logout-btn-small {
+    vertical-align: top;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/classic/src/view/main/Main.scss:76 */
+.whiteToolBar {
+    background-color: white;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/classic/src/view/main/Main.scss:80 */
+.coffeeToolBar {
+    background-color: #6f4e37 !important;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/classic/src/view/main/Main.scss:84 */
+.main .x-panel-body {
+    background: url("images/wooden_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/classic/src/view/main/Main.scss:92 */
+.tea .x-panel-body {
+    background: url("images/tea1.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 500px 520px;
+}
+/* C:/Users/abchugh/git/server-side-events/src/main/resources/public/classic/src/view/main/Main.scss:101 */
+.coffee .x-panel-body {
+    background: url("images/Coffee.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 460px 400px;
+}

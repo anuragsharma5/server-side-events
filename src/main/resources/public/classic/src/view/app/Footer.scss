@@ -1,0 +1,15 @@
+/* Styles for the application footer. */
+.x-statusbar.app-footer {
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 5px 10px;
+        border-top: 1px solid #fff;
+        border-radius: 0;
+
+        .x-toolbar-text {
+                color: #666;
+                font-size: 12px;
+                font-weight: bold;
+        }
+}

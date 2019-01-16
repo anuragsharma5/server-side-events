@@ -1,0 +1,8 @@
+{
+	"success": true,
+	"msg": "User info verified successfully",
+	"data": [{
+		"userName": "Jose T",
+		"userID": "123"
+	}]
+}
