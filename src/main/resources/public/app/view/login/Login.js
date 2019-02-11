@@ -47,7 +47,7 @@ Ext.define('starter.view.login.Login', {
 		    							xtype 	: 'panel',
 		    							width   : '100%',
 		    							flex    : 1,
-		    							layout 	: 'center',
+		    							layout 	: 'center' ,
 		    	    					items 	: [	{
 				    								 xtype 	: 'panel',
 				    								 width  : '100%',
