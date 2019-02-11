@@ -204,7 +204,7 @@ Ext.define('starter.view.main.MainController', {
     		
     		me.source !== undefined ? me.source.close() : null;
     		
-    		me.source = new EventSource('http://localhost:8080/teaEvents');
+    		me.source = new EventSource('http://localhost:8080/updateClaimStatus');
     		
     		me.source.onmessage = function(event) {
     			
@@ -213,9 +213,9 @@ Ext.define('starter.view.main.MainController', {
     			
     			me.index = me.index+1;    			
     			console.log(obj.status); 
-    			var statusPanel = me.lookupReference(me.claimStatuses[me.index]),
-		    	greyPanel  = me.lookupReference(me.claimStatuses[me.index] + 'drawgrey'),
-		    	greenPanel  = me.lookupReference(me.claimStatuses[me.index] + 'drawgreen');
+    			var statusPanel = me.lookupReference(obj.status),
+		    	greyPanel  = me.lookupReference(obj.status + 'drawgrey'),
+		    	greenPanel  = me.lookupReference(obj.status + 'drawgreen');
     			
     			statusPanel ? statusPanel.setBodyStyle({
         				'background-color' :'green'
@@ -232,9 +232,7 @@ Ext.define('starter.view.main.MainController', {
     			    
     			 }): null
     			
-    			 if(obj.status  == '100%') {
-    				 
-    				 obj.status = '100';
+    			 if(obj.status  == 'Disbursement') {
     				 
     				 me.source.close();   				  				 
     				
